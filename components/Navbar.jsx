@@ -8,11 +8,13 @@ function AppBar() {
     { name: "Login", link: "/login" },
   ];
   return (
-    <div className="flex h-12 w-full items-center justify-between bg-teal-700 px-96   text-white">
+    <div className="md:px24 flex h-12 w-full items-center justify-between bg-teal-700 px-6  text-white lg:px-72">
       <div className="">
-        <h1 className="text-3xl font-bold text-orange-400">Logo Name</h1>
+        <h1 className="text-xl font-bold text-orange-400 md:text-2xl lg:text-3xl">
+          Logo Name
+        </h1>
       </div>
-      <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+      <ul className="flex items-center space-x-6 md:space-y-0">
         {Links.map((link) => (
           <li key={link.name}>
             <Link
