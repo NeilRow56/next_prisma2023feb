@@ -5,7 +5,7 @@ function AppBar() {
     { name: "Home", link: "/" },
     { name: "Admin", link: "/admin" },
     { name: "Panel", link: "/admin/panel" },
-    { name: "Login", link: "/" },
+    { name: "Login", link: "/login" },
   ];
   return (
     <div className="flex h-12 w-full items-center justify-between bg-teal-700 px-96   text-white">
